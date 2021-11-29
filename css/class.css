@@ -1,4 +1,27 @@
-.body {
+body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+.top_line {
+}
+.nav_left {
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+}
+.blue {
+  color: #2196f3;
+}
+.nav_right {
+}
+.button_link {
+}
+.button {
+}
+.link {
+}
+.footer {
 }

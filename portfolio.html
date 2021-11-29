@@ -8,31 +8,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link href="./css/class.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header>
+    <header class="top_line">
         <!-- top line -->
-        <nav>
-            <p> WebStudio </p>
+        <nav class="nav_left">
+            <p class="logo"> <strong class="blue"> Web </strong> Studio </p>
             <ul>
                 <li> <a href="Студия">Студия</a></li>
                 <li>Портфолио</li>
                 <li>Контакты</li>
             </ul>
-            <ul>
-                <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li>+38 096 111 11 11</li>
-            </ul>
         </nav>
+        <ul class="nav_right">
+            <li> <a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li>+38 096 111 11 11</li>
+        </ul>
     </header>
     <!-- portfolio -->
-    <section>
-        <!-- button -->
-        <ul>
+    <section class="button_link">
+        <h2>Button, link</h2>
+        <!-- button, link -->
+        <ul class="button">
             <li>
                 <button>Все</button>
                 <button>Веб-сайты</button>
@@ -41,37 +44,44 @@
                 <button>Маркетинг</button>
             </li>
         </ul>
-        <ul>
+        <ul class="link">
             <li>
-                <a href="" target="" rel=""> <img src="./img/img.jpg" alt="notebook"></a>
+                <figure>
+                    <a href="img" target="book" rel="mac"> <img src="./img/img.jpg" alt="notebook"></a>
+                    <figcaption>Технокряк Веб-сайт</figcaption>
+                </figure>
             </li>
             <li>
-                <a href="" target="" rel=""> <img src="./img/basketball.jpg" alt="play basketball"></a>
+                <figure>
+                    <a href="ball" target="play" rel="game"> <img src="./img/basketball.jpg" alt="play basketball"></a>
+                    <figcaption>Постер New Orlean vs Golden Star Дизайн</figcaption>
+                </figure>
             </li>
             <li>
-                <a href="" target="" rel=""> <img src="./img/restoraunt.jpg" alt="sea food restaurant"></a>
+                <a href="emblem" target="cook" rel="food"> <img src="./img/restoraunt.jpg"
+                        alt="sea food restaurant"></a>
             </li>
             <li>
-                <a href="" target="" rel=""> <img src="./img/headphone.jpg" alt="headfone"></a>
+                <a href="phone" target="sound" rel="muz"> <img src="./img/headphone.jpg" alt="headfone"></a>
             </li>
             <li>
-                <a href="" target="" rel=""> <img src="./img/box.jpg" alt="boxes"></a>
+                <a href="size" target="mini" rel="box"> <img src="./img/box.jpg" alt="boxes"></a>
             </li>
             <li>
-                <a href="" target="" rel=""> <img src="./img/website.jpg" alt="website in monitor"></a>
+                <a href="web" target="page" rel="html"> <img src="./img/website.jpg" alt="website in monitor"></a>
             </li>
             <li>
-                <a href="" target="" rel=""> <img src="./img/magazine.jpg" alt="magazine"></a>
+                <a href="article" target="people" rel="social"> <img src="./img/magazine.jpg" alt="magazine"></a>
             </li>
             <li>
-                <a href="" target="" rel=""> <img src="./img/marketing.jpg" alt="labletag"> </a>
+                <a href="shop" target="black" rel="friday"> <img src="./img/marketing.jpg" alt="labletag"> </a>
             </li>
             <li>
-                <a href="" target="" rel=""> <img src="./img/application.jpg" alt="application"></a>
+                <a href="app" target="msi" rel="unix"> <img src="./img/application.jpg" alt="application"></a>
             </li>
         </ul>
     </section>
-    <footer>
+    <footer class="footer">
         <p> WebStudio </p>
         <address>г. Киев, пр-т Леси Украинки, 26 +38 099 111 11 11 info@example.com</address>
     </footer>
