@@ -17,10 +17,9 @@ body {
   background-color: #ffffff;
   color: #757575;
   font-family: "Roboto", "Raleway", sans-serif;
+  font-size: 14px;
 }
-ul {
-  list-style: none;
-}
+
 :root {
   --text-primary-color: #757575;
   --text-title-color: #212121;
@@ -28,14 +27,24 @@ ul {
 }
 /* logo nav and footer */
 .logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 400;
   color: #000000;
+  text-decoration: none;
 }
 .logo .blue {
   color: var(--text-nav-color);
 }
 /* site list */
+.header ul {
+  list-style: none;
+}
 .site-list .link {
   color: var(--text-title-color);
+  font-weight: 500;
+  text-decoration: none;
+  list-style: none;
 }
 .site-list .link:hover,
 .site-list .link:focus {
@@ -44,26 +53,47 @@ ul {
 /* contact */
 .contact .list {
   color: var(--text-primary-color);
+  text-decoration: none;
+  font-weight: 500;
 }
 .contact .list:hover,
 .contact .list:focus {
   color: var(--text-nav-color);
 }
-/* main hero */
+/* main hero .index.html*/
+.main ul {
+  list-style: none;
+}
 .hero {
   background-color: #2f303a;
   color: #ffffff;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
 }
-/* main benefits */
+/* main benefits .index.html*/
 .benefits h3 {
   color: var(--text-title-color);
+  font-weight: 700;
+  text-transform: uppercase;
 }
-/* main work */
+/* main work .index.html*/
 .work,
 .team h2 {
   color: var(--text-title-color);
+  font-size: 36px;
+  font-weight: 700;
 }
-/* main team */
-.team .list > p:nth-child(1) {
+/* main team .index.html*/
+.list {
+  font-weight: 400;
+  font-size: 16px;
+}
+.list > .list-team {
   color: var(--text-title-color);
+  font-weight: 500;
+}
+/* footer */
+.footer ul {
+  list-style: none;
 }
