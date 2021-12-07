@@ -5,13 +5,10 @@
 }
 /* background color body #FFFFFF
  background color section #E5E5E5
- color primary text #757575
- coloe title text #212121
+ color primary text, color contact #757575
+ coloe title text, color link #212121
  background color hero hw1 #2F303A 
- color link #212121
- link hover #2196F3
- color contact #757575
- contact hover #2196F3 */
+ link hover, contact hover  #2196F3*/
 
 body {
   background-color: #ffffff;
@@ -24,6 +21,7 @@ body {
   --text-primary-color: #757575;
   --text-title-color: #212121;
   --text-nav-color: #2196f3;
+  --background-button: #f5f4fa;
 }
 /* logo nav and footer */
 .logo {
@@ -44,11 +42,13 @@ body {
   color: var(--text-title-color);
   font-weight: 500;
   text-decoration: none;
-  list-style: none;
 }
 .site-list .link:hover,
 .site-list .link:focus {
   color: var(--text-nav-color);
+}
+.site-list .link-current {
+  color: var(--text-primary-color);
 }
 /* contact */
 .contact .list {
@@ -60,7 +60,7 @@ body {
 .contact .list:focus {
   color: var(--text-nav-color);
 }
-/* main hero .index.html*/
+/* main hero студия*/
 .main ul {
   list-style: none;
 }
@@ -71,20 +71,20 @@ body {
   font-weight: 900;
   text-align: center;
 }
-/* main benefits .index.html*/
+/* main benefits студия*/
 .benefits h3 {
   color: var(--text-title-color);
   font-weight: 700;
   text-transform: uppercase;
 }
-/* main work .index.html*/
+/* main work студия*/
 .work,
 .team h2 {
   color: var(--text-title-color);
   font-size: 36px;
   font-weight: 700;
 }
-/* main team .index.html*/
+/* main team студия*/
 .list {
   font-weight: 400;
   font-size: 16px;
@@ -96,4 +96,26 @@ body {
 /* footer */
 .footer ul {
   list-style: none;
+}
+/* main portfolio */
+.project {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.9;
+}
+
+.project .list-title {
+  color: var(--text-title-color);
+  font-size: 18px;
+  font-weight: 700;
+}
+.list-buttom {
+  background-color: var(--background-button);
+  color: var(--text-title-color);
+  cursor: pointer;
+}
+.list-buttom:hover,
+.list-buttom:focus {
+  background-color: var(--text-nav-color);
+  color: #fff;
 }
