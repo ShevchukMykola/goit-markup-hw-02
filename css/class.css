@@ -15,6 +15,7 @@ body {
   color: #757575;
   font-family: "Roboto", "Raleway", sans-serif;
   font-size: 14px;
+  font-weight: 400;
 }
 
 :root {
@@ -27,7 +28,6 @@ body {
 .logo {
   font-family: "Raleway";
   font-size: 26px;
-  font-weight: 400;
   color: #000000;
   text-decoration: none;
 }
@@ -37,6 +37,7 @@ body {
 /* site list */
 .header ul {
   list-style: none;
+  line-height: 1.1;
 }
 .site-list .link {
   color: var(--text-title-color);
@@ -69,13 +70,28 @@ body {
   color: #ffffff;
   font-size: 60px;
   font-weight: 900;
+  line-height: 1.4;
   text-align: center;
+}
+.hero-buttom {
+  background-color: var(--background-button);
+  color: var(--text-title-color);
+  cursor: pointer;
+  line-height: 1.9;
+}
+.hero-buttom:hover,
+.hero-buttom:focus {
+  background-color: var(--text-nav-color);
+  color: #fff;
 }
 /* main benefits студия*/
 .benefits h3 {
   color: var(--text-title-color);
   font-weight: 700;
   text-transform: uppercase;
+}
+.list-paragraph {
+  line-height: 1.7;
 }
 /* main work студия*/
 .work,
@@ -100,19 +116,20 @@ body {
 /* main portfolio */
 .project {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.9;
 }
 
 .project .list-title {
   color: var(--text-title-color);
   font-size: 18px;
+  line-height: 2;
   font-weight: 700;
 }
 .list-buttom {
   background-color: var(--background-button);
   color: var(--text-title-color);
   cursor: pointer;
+  line-height: 1.2;
 }
 .list-buttom:hover,
 .list-buttom:focus {
