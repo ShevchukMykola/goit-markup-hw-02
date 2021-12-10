@@ -77,6 +77,8 @@ body {
   background-color: var(--background-button);
   color: var(--text-title-color);
   cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
   line-height: 1.9;
 }
 .hero-buttom:hover,
@@ -128,6 +130,8 @@ body {
 .list-buttom {
   background-color: var(--background-button);
   color: var(--text-title-color);
+  font-family: inherit;
+  font-weight: 500;
   cursor: pointer;
   line-height: 1.2;
 }
