@@ -13,9 +13,11 @@
 body {
   background-color: #ffffff;
   color: #757575;
+
   font-family: "Roboto", "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 :root {
@@ -28,19 +30,26 @@ body {
 .logo {
   font-family: "Raleway";
   font-size: 26px;
+
   color: #000000;
+
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo .blue {
   color: var(--text-nav-color);
 }
 /* site list */
+.header {
+  letter-spacing: 0.02em;
+}
 .header ul {
   list-style: none;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 .site-list .link {
   color: var(--text-title-color);
+
   font-weight: 500;
   text-decoration: none;
 }
@@ -49,16 +58,20 @@ body {
   color: var(--text-nav-color);
 }
 .site-list .link-current {
-  color: var(--text-primary-color);
+  font-weight: 500;
+  text-decoration: none;
+
+  color: var(--text-nav-color);
 }
-/* contact */
-.contact .list {
+/* header contact */
+.contact .contact-list {
   color: var(--text-primary-color);
+
   text-decoration: none;
   font-weight: 500;
 }
-.contact .list:hover,
-.contact .list:focus {
+.contact .contact-list:hover,
+.contact .contact-list:focus {
   color: var(--text-nav-color);
 }
 /* main hero студия*/
@@ -66,29 +79,36 @@ body {
   list-style: none;
 }
 .hero {
+  letter-spacing: 0.06em;
+}
+.hero h1 {
   background-color: #2f303a;
   color: #ffffff;
-  font-size: 60px;
+
+  font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
   text-align: center;
 }
 .hero-buttom {
-  background-color: var(--background-button);
-  color: var(--text-title-color);
+  background-color: var(--text-nav-color);
+  color: var(--background-button);
+
   cursor: pointer;
+
   font-family: inherit;
   font-weight: 500;
   line-height: 1.9;
 }
 .hero-buttom:hover,
 .hero-buttom:focus {
-  background-color: var(--text-nav-color);
-  color: #fff;
+  background-color: var(--background-button);
+  color: var(--text-title-color);
 }
 /* main benefits студия*/
 .benefits h3 {
   color: var(--text-title-color);
+
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -99,21 +119,47 @@ body {
 .work,
 .team h2 {
   color: var(--text-title-color);
+
   font-size: 36px;
   font-weight: 700;
 }
 /* main team студия*/
-.list {
+.team-list {
   font-weight: 400;
   font-size: 16px;
 }
-.list > .list-team {
+.team-list > .list-name {
   color: var(--text-title-color);
   font-weight: 500;
 }
 /* footer */
+.footer {
+  line-height: 1.7;
+
+  background-color: #2f303a;
+  color: #fff;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+
+  color: #fff;
+  text-decoration: none;
+}
+.footer-logo .blue {
+  color: var(--text-nav-color);
+}
+.fooret-address {
+  font-style: normal;
+}
+.contact-footer {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
 .footer ul {
   list-style: none;
+  font-style: normal;
 }
 /* main portfolio */
 .project {
@@ -123,17 +169,21 @@ body {
 
 .project .list-title {
   color: var(--text-title-color);
+
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
+  letter-spacing: 0.06em;
 }
 .list-buttom {
   background-color: var(--background-button);
   color: var(--text-title-color);
+
   font-family: inherit;
   font-weight: 500;
+  line-height: 1.6;
+
   cursor: pointer;
-  line-height: 1.2;
 }
 .list-buttom:hover,
 .list-buttom:focus {
