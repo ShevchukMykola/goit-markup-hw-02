@@ -88,7 +88,9 @@ body {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
+
   text-align: center;
+  text-transform: uppercase;
 }
 .hero-buttom {
   background-color: var(--text-nav-color);
@@ -97,7 +99,7 @@ body {
   cursor: pointer;
 
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.9;
 }
 .hero-buttom:hover,
@@ -110,18 +112,20 @@ body {
   color: var(--text-title-color);
 
   font-weight: 700;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 .list-paragraph {
   line-height: 1.7;
 }
 /* main work студия*/
-.work,
+.work h2,
 .team h2 {
   color: var(--text-title-color);
 
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.2;
 }
 /* main team студия*/
 .team-list {
@@ -166,6 +170,25 @@ body {
   font-size: 16px;
   line-height: 1.9;
 }
+.portfolio-battom {
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.list-buttom {
+  background-color: var(--background-button);
+  color: var(--text-title-color);
+
+  font-family: inherit;
+
+  cursor: pointer;
+}
+
+.list-buttom:hover,
+.list-buttom:focus {
+  background-color: var(--text-nav-color);
+  color: #fff;
+}
 
 .project .list-title {
   color: var(--text-title-color);
@@ -174,19 +197,4 @@ body {
   line-height: 2;
   font-weight: 700;
   letter-spacing: 0.06em;
-}
-.list-buttom {
-  background-color: var(--background-button);
-  color: var(--text-title-color);
-
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.6;
-
-  cursor: pointer;
-}
-.list-buttom:hover,
-.list-buttom:focus {
-  background-color: var(--text-nav-color);
-  color: #fff;
 }
