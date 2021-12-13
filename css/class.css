@@ -108,7 +108,7 @@ body {
   color: var(--text-title-color);
 }
 /* main benefits студия*/
-.benefits-title {
+.benefits .benefits-title {
   color: var(--text-title-color);
 
   font-weight: 700;
