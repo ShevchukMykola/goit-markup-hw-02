@@ -171,16 +171,14 @@ body {
   font-size: 16px;
   line-height: 1.9;
 }
-.portfolio-battom {
-  font-weight: 500;
-  line-height: 1.6;
-}
 
 .list-buttom {
   background-color: var(--background-button);
   color: var(--text-title-color);
 
   font-family: inherit;
+  font-weight: 500;
+  line-height: 1.6;
 
   cursor: pointer;
 }
