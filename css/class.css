@@ -80,6 +80,7 @@ body {
 }
 .hero {
   letter-spacing: 0.06em;
+  text-align: center;
 }
 .hero h1 {
   background-color: #2f303a;
@@ -104,8 +105,8 @@ body {
 }
 .hero-buttom:hover,
 .hero-buttom:focus {
-  background-color: var(--background-button);
-  color: var(--text-title-color);
+  background-color: #188ce8;
+  color: #fff;
 }
 /* main benefits студия*/
 .benefits .benefits-title {
