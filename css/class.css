@@ -1,11 +1,7 @@
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 /* background color body #FFFFFF
  background color section #E5E5E5
@@ -22,15 +18,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.03em;
-}
-h1,
-h2,
-h3,
-p,
-ul,
-li {
-  margin: 0;
-  padding: 0;
 }
 
 :root {
@@ -54,7 +41,6 @@ li {
 }
 /* site list */
 .header {
-  border-bottom: 1px solid #ececec;
   letter-spacing: 0.02em;
 }
 .header ul {
@@ -108,13 +94,6 @@ li {
   text-transform: uppercase;
 }
 .hero-buttom {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid;
-  padding: 10px 32px;
-
-  min-height: 50px;
-
   background-color: var(--text-nav-color);
   color: var(--background-button);
 
@@ -144,9 +123,6 @@ li {
 /* main work студия*/
 .work h2,
 .team h2 {
-  margin: 0;
-  padding: 0;
-
   color: var(--text-title-color);
 
   font-size: 36px;
@@ -196,13 +172,8 @@ li {
   font-size: 16px;
   line-height: 1.9;
 }
-/* porfolio button */
-.list-buttom {
-  border-radius: 4px;
-  border: 1px solid var(--background-button);
-  min-height: 38px;
-  padding: 6px 22.02px;
 
+.list-buttom {
   background-color: var(--background-button);
   color: var(--text-title-color);
 
@@ -215,11 +186,10 @@ li {
 
 .list-buttom:hover,
 .list-buttom:focus {
-  border: 1px solid var(--text-nav-color);
   background-color: var(--text-nav-color);
   color: #fff;
 }
-/* portfolio project */
+
 .project .list-title {
   color: var(--text-title-color);
 
